@@ -24,3 +24,4 @@ router
     `;
 
     router.updatePageLinks();
+    render(state.Home);
