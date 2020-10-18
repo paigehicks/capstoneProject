@@ -1,4 +1,4 @@
 export default {
   header: "Notifications",
-  view: "Notifications"
+  page: "Notifications"
 };

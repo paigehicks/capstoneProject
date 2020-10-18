@@ -1,5 +1,5 @@
 import * as state from "./store";
-import { Header, Nav, Main, Footer } from "./components";
+import { Header, Main, Footer } from "./components";
 
 import Navigo from "navigo";
 import { capitalize } from "lodash";
@@ -16,12 +16,12 @@ router
   })
   .resolve();
 
-  function render(st = state.Home) {
-    document.querySelector("#root").innerHTML = `
+function render(st = state.Home) {
+  document.querySelector("#root").innerHTML = `
       ${Header()}
       ${Main(st)}
       ${Footer()}
     `;
 
-    router.updatePageLinks();
-    render(state.Home);
+  router.updatePageLinks();
+}

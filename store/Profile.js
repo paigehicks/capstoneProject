@@ -1,4 +1,4 @@
 export default {
   header: "My Profile",
-  view: "Profile"
+  page: "Profile"
 };
