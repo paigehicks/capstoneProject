@@ -4,15 +4,20 @@ body {
   border: 2px;
 }
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-// home page
+/*home page*/
 #Blue_Junes {
-  font-family: 'Fredericka the Great', cursive;
-  size: 400px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 200px;
 }
 
-// commissions
-.split-para      { display:block;margin:10px;}
-.split-para span { display:block;float:right;width:50%;margin-left:10px;}
+/*commissions*/
+.mainbody {
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}

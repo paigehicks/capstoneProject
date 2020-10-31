@@ -1,3 +1,4 @@
 export default () => `
-<a href><img class="logo" src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/pharmanac.PNG?raw=true"></a>
+<h1 id="Blue_Junes">Blue June's Art</h1>;
+<a href="./Home">Home</a>;
 `;
