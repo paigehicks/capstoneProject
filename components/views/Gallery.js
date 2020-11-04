@@ -1,20 +1,20 @@
 export default () => `
+<div class="gallery">
 <h1 class="galleryHeading">Gallery</h1>
-<br>
 <div class="galleryContainer">
   <div class="img-box">
-    <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/birdsOfAFeather.png?raw=true">
+    <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/Range.png?raw=true'>
     <div class="transparent-box">
-      <div class="caption">
-      <p class="opacity-low">Blackbird</p>
+    <div class="caption">
+      <p class="opacity-low">Range</p>
+    </div>
     </div>
   </div>
-</div>
 <div class="img-box">
-  <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/peachy.png?raw=true"alt="peachy">
+  <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/Eggboitrips.png?raw=true'>
   <div class="transparent-box">
     <div class="caption">
-      <p class="opacity-low">Peachy</p>
+      <p class="opacity-low">Egg Boy</p>
     </div>
   </div>
 </div>
@@ -46,16 +46,15 @@ export default () => `
   <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/sunmoon.png?raw=true'>
   <div class="transparent-box">
     <div class="caption">
-      <p>Vintage</p>
       <p class="opacity-low">The Overlap</p>
     </div>
   </div>
 </div>
 <div class="img-box">
-  <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/Range.png?raw=true'>
-  <div class="transparent-box">
-    <div class="caption">
-      <p class="opacity-low">Range</p>
+<img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/birdsOfAFeather.png?raw=true">
+<div class="transparent-box">
+  <div class="caption">
+  <p class="opacity-low">Blackbird</p>
     </div>
   </div>
 </div>
@@ -68,12 +67,13 @@ export default () => `
   </div>
 </div>
 <div class="img-box">
-  <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/sunmoon.png?raw=true'>
+  <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/creature.png?raw=true'>
   <div class="transparent-box">
     <div class="caption">
-      <p class="opacity-low">The Overlap</p>
+      <p class="opacity-low">Creature of the Woods</p>
     </div>
   </div>
+</div>
 </div>
 </div>
 `;
