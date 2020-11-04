@@ -1,5 +1,6 @@
 export default () => `
 <div class="about">
+<img class="jennyDrawing" src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/jenny3.png?raw=true>
 <img class="jenny" src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/jenny.png?raw=true">
 
 <div class="abbody">
