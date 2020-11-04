@@ -1,10 +1,10 @@
 export default () => `
-<header class="showcase">
-    <div class="container showcase-inner">
-    <h1>Blue June's Art</h1>
+  <header class="showcase">
+  <div class="container showcase-inner">
+  <h1>Blue June's Art</h1>
     <p> skdjfhlkjshdfkkljh<br>dsfkjghkjdshfg<br>kjdfhglkjdshfgkj</p>
     <a href="#" class="btn">Read More</a>
-    </div>
+  </div>
 </header>
 <div>
   <ul class="sci">

@@ -25,11 +25,3 @@ function render(st = state.Home) {
 
   router.updatePageLinks();
 }
-
-addHamburgerEventListener();
-// Hamburger listeners
-function addHamburgerEventListener() {
-  document.querySelector(".fa-bars").addEventListener("click", () => {
-    document.querySelector("nav > ul").classList.toggle("hidden");
-  });
-}
