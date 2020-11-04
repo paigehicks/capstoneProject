@@ -1,4 +1,4 @@
-/* CORE STYLES */
+/*-----CORE STYLES-----*/
 :root {
   --primary-color: rgba(13, 110, 139, 0.75);
   --overlay-color: rgba(24, 39, 51 , 0.85);
@@ -78,7 +78,7 @@ body {
   opacity: 0.7;
 }
 
-/* MENU STYLES */
+/*-----MENU STYLES-----*/
 .menu-wrap {
   position: fixed;
   top: 0;
@@ -111,7 +111,7 @@ body {
   justify-content: center;
 }
 
-/* Hamburger Line */
+/*-----Hamburger Line-----*/
 .menu-wrap .hamburger > div {
   position: relative;
   flex: none;
@@ -124,7 +124,7 @@ body {
   transition: all 0.4s ease;
 }
 
-/* Hamburger Lines - Top & Bottom */
+/*-----Hamburger Lines - Top & Bottom-----*/
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
   content: '';
@@ -136,29 +136,29 @@ body {
   background: inherit;
 }
 
-/* Moves Line Down */
+/*-----Moves Line Down-----*/
 .menu-wrap .hamburger > div::after {
   top: 10px;
 }
 
-/* Toggler Animation */
+/*-----Toggler Animation-----*/
 .menu-wrap .toggler:checked + .hamburger > div {
   transform: rotate(135deg);
 }
 
-/* Turns Lines Into X */
+/*-----Turns Lines Into X-----*/
 .menu-wrap .toggler:checked + .hamburger > div:before,
 .menu-wrap .toggler:checked + .hamburger > div:after {
   top: 0;
   transform: rotate(90deg);
 }
 
-/* Rotate On Hover When Checked */
+/*-----Rotate On Hover When Checked-----*/
 .menu-wrap .toggler:checked:hover + .hamburger > div {
   transform: rotate(225deg);
 }
 
-/* Show Menu */
+/*-----Show Menu-----*/
 .menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
 }
@@ -220,3 +220,24 @@ body {
   transition: color 0.4s ease;
 }
 
+/*-----About-----*/
+
+.about {
+  background-color: var(--primary-color);
+}
+.abbody {
+  background-color: var(--primary-color);
+}
+
+.jenny {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.jenny:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
