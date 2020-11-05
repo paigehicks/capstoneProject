@@ -1,42 +1,29 @@
-export default () => `<div id="paypal-button"></div>
-<script src="https://www.paypalobjects.com/api/checkout.js"></script>
-<script>
-  paypal.Button.render({
-    // Configure environment
-    env: 'sandbox',
-    client: {
-      sandbox: 'demo_sandbox_client_id',
-      production: 'demo_production_client_id'
-    },
-    // Customize button (optional)
-    locale: 'en_US',
-    style: {
-      size: 'small',
-      color: 'gold',
-      shape: 'pill',
-    },
-
-    // Enable Pay Now checkout flow (optional)
-    commit: true,
-
-    // Set up a payment
-    payment: function(data, actions) {
-      return actions.payment.create({
-        transactions: [{
-          amount: {
-            total: '0.01',
-            currency: 'USD'
-          }
-        }]
-      });
-    },
-    // Execute the payment
-    onAuthorize: function(data, actions) {
-      return actions.payment.execute().then(function() {
-        // Show a confirmation message to the buyer
-        window.alert('Thank you for your purchase!');
-      });
-    }
-  }, '#paypal-button');
-
-</script>`;
+export default () => `
+<a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry?raw=true</a>
+<div class="stickerStore">
+  <h1 class="stickers">Sticker Store!</h1>
+    <div class="stickerGridContainer">
+    <div class="sticker1">
+      <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/letMeSleep.png?raw=true" alt="letMeSleep" style="width:100%">
+      <h1>Let Me Sleep</h1>
+      <p class="price">$5.00</p>
+      <p>Some text about the stickers.</p>
+      <p><button>Add to Cart</button></p>
+      </div>
+    <div class="sticker2">
+      <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/workInProgress.png?raw=true" alt="workInProgress" style="width:100%">
+      <h1>Work in Progress</h1>
+      <p class="price">$5.00</p>
+      <p>Some text about the stickers.</p>
+      <p><button>Add to Cart</button></p>
+    </div>
+    <div class="sticker3">
+      <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/atlasMoth.png?raw=true" alt="atlasMoth" style="width:100%">
+      <h1>Atlas Moth</h1>
+      <p class="price">$5.00</p>
+      <p>Some text about the stickers.</p>
+    <p><button>Add to Cart</button></p>
+    </div>
+  </div>
+</div>
+`;

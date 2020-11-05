@@ -6,11 +6,4 @@ export default () => `
     <a href="#" class="btn">Read More</a>
   </div>
 </header>
-<div>
-  <ul class="sci">
-    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-    <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
-    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-  </ul>
-</div>
-  `;
+`;
