@@ -228,18 +228,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(https://github.com/paigehicks/capstoneProject/blob/master/Pictures/jenny3.png?raw=true) no-repeat left;
-  background-size: 55%;
+  background: url(https://github.com/paigehicks/capstoneProject/blob/master/Pictures/jenny.png?raw=true) no-repeat left;
+  background-size: 30%;
   background-color: #fdfdfd;
   overflow: hidden;
   padding: 100px 0;
 }
 
 .innerContainer {
-  width: 55%;
+  width: 45%;
   float: right;
   background-color: #fdfdfd;
-  padding: 150px;
+  padding: 20px;
 }
 
 .innerContainer h1 {
@@ -261,7 +261,7 @@
   justify-content: space-between;
 }
 .socialMedia .a {
-  margin: 7px;
+  margin: 2px;
 }
 .socialMedia .a:link .a:visited {
   background-color: #000;
@@ -361,7 +361,10 @@
 /*=====Store=====*/
 
 .cart {
-  text-align: right;
+  align-content: right;
+}
+.cart:hover {
+  cursor: pointer;
 }
 
 .stickerGridContainer {
@@ -404,6 +407,7 @@
 .sticker1 button:hover {
   opacity: 0.7;
 }
+
 .sticker2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -427,6 +431,7 @@
 .sticker2 button:hover {
   opacity: 0.7;
 }
+
 .sticker3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -449,4 +454,98 @@
 
 .sticker3 button:hover {
   opacity: 0.7;
+}
+
+/*=====Commissions=====*/
+
+.mainBody {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+.commissionsHeader {
+  text-align: center;
+  font-size: 50px;
+}
+.comm {
+  text-align: center;
+}
+.flex-container {
+  padding: 20px;
+  text-align: center;
+}
+.flex-text {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+.list {
+  list-style-type: none;
+}
+
+.commissions {
+  background-size: 55%;
+  background-color: khaki;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.inner-box {
+  width: 500px;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 20px 0 #999;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+/*-----form-----*/
+form {
+  margin: 35px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding: 10px;
+}
+
+.submit {
+  box-shadow: inset -1px -3px 10px 0px #9fb4f2;
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 6px;
+  border: 2px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-shadow: -2px 2px 0px #283966;
+}
+
+.submit:hover {
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
+
+.submit:active {
+  position: relative;
+  top: 1px;
 }

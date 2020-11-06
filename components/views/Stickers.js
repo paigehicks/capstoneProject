@@ -1,6 +1,8 @@
 export default () => `
-<a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry?raw=true</a>
 <div class="stickerStore">
+<div class="cart">
+<a href="./Cart><img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/cart.png?raw=true"></a>
+</div>
   <h1 class="stickers">Sticker Store!</h1>
     <div class="stickerGridContainer">
     <div class="sticker1">
