@@ -30,6 +30,7 @@ export default () => `
             </div>
         </div>
     </div>
+</section>
 
 <section class="container content-section">
     <h2 class="section-header">CART</h2>

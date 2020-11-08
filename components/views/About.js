@@ -9,8 +9,10 @@ export default () => `
       <br>My work is usually in a cartoon style, but I'm influenced by different styles all the time! My art style is inspired by interests in space, nature, creature design, and emotion.
     </p>
     <div class="socialMedia">
-      <a href="https://www.facebook.com/jennifer.meda.9"><i class="fab fa-facebook-square fa-5x"></i></a>
-      <a href="https://www.instagram.com/jennymeda/"><i class="fab fa-instagram-square fa-5x"></i></a>
+      <a href="https://www.facebook.com/jennifer.meda.9"><i class="fab fa-facebook-square fa-5x">
+      </i></a>
+      <a href="https://www.instagram.com/jennymeda/"><i class="fab fa-instagram-square fa-5x"></i>
+      </a>
       <a href="https://twitter.com/bluejelllo"><i class="fab fa-twitter-square fa-5x"></i></a>
     </div>
     </div>
