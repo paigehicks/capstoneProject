@@ -26,6 +26,7 @@ function render(st = state.Home) {
   router.updatePageLinks();
 }
 
+
 // cart
 
 if (document.readyState == 'loading') {
