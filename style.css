@@ -369,191 +369,25 @@
 
 /*=====Store=====*/
 
-.cart {
-  align-content: right;
-}
-.cart:hover {
-  cursor: pointer;
-}
-
-.stickerGridContainer {
-  display: flex;
-  flex-direction: row;
-  background-color: #fff;
-  text-align: center;
-}
-
-.stickers {
-  text-align: center;
-  font-size: 75px;
-}
-
-.sticker1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-.price {
-  color: grey;
-  font-size: 22px;
-}
-
-.sticker1 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.sticker1 button:hover {
-  opacity: 0.7;
-}
-
-.sticker2 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-.sticker2 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.sticker2 button:hover {
-  opacity: 0.7;
-}
-
-.sticker3 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-.sticker3 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.sticker3 button:hover {
-  opacity: 0.7;
-}
-
-.nav ul {
-  margin: 0;
-}
-
-.nav li {
-  display: inline;
-}
-
-.nav a {
-  display: inline-block;
-  padding: .5em;
-  color: white;
-  text-decoration: none;
-}
-
-.main-nav {
-  text-align: center;
-  font-size: 1.1em;
-  font-weight: lighter;
-  border-bottom: 1px solid rgba(255, 255, 255, .3)
-}
-
-.main-nav li {
-  padding: 0 5%;
-}
-
-.nav a:hover {
-  background-color: rgba(255, 255, 255, .3)
-}
-
-.main-header {
-  background-color: rgba(0, 0, 0, .6);
-  background-blend-mode: multiply;
-  background-size: cover;
-  padding-bottom: 30px;
-}
-
-.band-name {
-  text-align: center;
-  margin: 0;
-  font-size: 4em;
-  font-family: "Booter - Zero Zero";
-  font-weight: normal;
-  color: white;
-}
-
-.band-name-large {
-  font-size: 8em;
-}
-
 .content-section {
   margin: 1em;
 }
 
-.container {
+.cart {
+  height: 50px;
+  width: 50px;
+}
+
+.sticker-container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1.5em;
 }
 .section-header {
-  font-family: "Metal Mania";
   font-weight: normal;
   color: #333;
   text-align: center;
   font-size: 2.5em;
-}
-
-.about-band-image {
-  float: left;
-  height: 200px;
-  width: 200px;
-  margin: 15px;
-  border-radius: 50%;
-}
-
-.main-footer {
-  background-color: #56CCF2;
-  color: white;
-  padding: .25em 0;
-}
-
-.main-footer-container {
-  display: flex;
-  align-items: center;
-}
-
-.main-footer-container ul {
-  flex-grow: 1;
-  text-align: end;
 }
 
 .btn {
@@ -772,7 +606,6 @@
   margin: 40px auto 80px auto;
   font-size: 1.75em;
 }
-
 /*=====Commissions=====*/
 
 .mainBody {

@@ -1,7 +1,7 @@
 {
   "name": "savvy-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "* ### Introduction <br /> PharmanacRx is a user friendly and helpful pharamacy web application catered to older generations. It aims to encourage those with impared senses to keep track of their medications online. <br />",
   "main": "index.js",
   "scripts": {
     "parcel-build": "parcel build index.html && cp _redirects ./dist/",
@@ -26,11 +26,21 @@
     "axios": "^0.20.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "mongodb-runner": "^4.8.0",
     "mongoose": "^5.10.11",
     "navigo": "^7.1.2",
     "parcel-bundler": "^1.12.4",
+    "paypal-rest-sdk": "^1.8.1",
     "pg": "^8.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paigehicks/capstoneProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paigehicks/capstoneProject/issues"
+  },
+  "homepage": "https://github.com/paigehicks/capstoneProject#readme"
 }
