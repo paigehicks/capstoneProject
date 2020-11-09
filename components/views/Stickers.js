@@ -8,7 +8,7 @@ export default () => `
             <img class="shop-item-image" src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/letMeSleep.png?raw=true">
             <div class="shop-item-details">
                 <span class="shop-item-price">$5.00</span>
-                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
             </div>
         </div>
 
@@ -68,6 +68,7 @@ export default () => `
         <strong class="cart-total-title">Total</strong>
         <span class="cart-total-price">$15.00</span>
     </div>
-    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+
+    <input class="btn btn-primary btn-purchase" type="submit" value="Buy">
 </section>
 `;
